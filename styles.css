@@ -1,0 +1,447 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F5F8FA;
+    width: 90rem;
+    height: 73.125rem;
+    flex-shrink: 0;
+    font-family: lato;
+}
+.top{
+    width: 85rem;
+    height: 4.5625rem;
+    flex-shrink: 0;
+    margin: 1.75rem 2.5rem 0 2.5rem;
+}
+.flex{
+    display: flex;
+}
+.nav-bar{
+    justify-content: space-between;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+}
+.logo{
+    width: 12.5rem;
+    height: 2.4375rem;
+    flex-shrink: 0;
+    margin-top: 0.13rem;
+}
+.navmenu{
+    width: 29.75rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: rgba(29, 44, 60, 1);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.00063rem;
+    padding: 0.69rem 0 0.75rem 0;
+    text-decoration: none;
+}
+.button{
+    border-radius: 0.375rem;
+    border: 2px solid #646E7A;
+    width: 5.6875rem;
+    height: 2.5rem; 
+    padding-top: 0.47rem;
+    text-align: center;
+}
+hr.header{
+    width: 84.875rem;
+    height: 0.125rem;
+    background: rgba(224, 230, 234, 1);
+    border: none;
+}
+.others{
+    width: 36.25rem;
+    height: 0.125rem;
+    background-color: rgba(245, 247, 250, 1);
+    margin-inline-start: -3rem !important;
+    border: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 5.31rem auto 2.06rem;
+    width: 55.75rem;
+    height: 49.6875rem;
+    border-radius: 0.375rem;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+}
+
+
+/* The left side */
+
+
+.leftContent{
+    padding-inline-start: 3rem;
+    width: 36.25rem;
+
+    > h2{
+        margin-block-start: 2.56rem;
+        margin-block-end: 1.5rem;
+        width: 10.0625rem;
+        height: 3.375rem;
+        color: rgba(29, 44, 60, 1);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 1.875rem;
+        font-weight: 400;
+    }
+}
+.basic{
+    margin-block-start: 2.12rem;
+    margin-inline-start: 0.06rem;
+    width: 33.25rem;
+    height: 13.8125rem;
+}
+.basicinfo{
+    width: 16.25rem;
+    height: 2.125rem;
+}
+.basicinfo, .paymentheader{
+    position: relative;
+    gap: 0.94rem;
+}
+.basicinfo p{
+    color: #548BC5;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.7rem;
+}
+.basicinfo h3, .paymentheader h3{
+    width: 13.75rem;
+    height: 2rem;
+    flex-shrink: 0;
+    color: #1D2C3C;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
+    margin-block-start: 0.12rem;
+}
+.textstyle{
+    font-style: normal;
+    line-height: normal;
+}
+form{
+    margin-block-start: 0.56rem;
+    margin-block-end: 2.56rem;
+}
+.names{
+    gap: 1.88rem;
+    margin-block-end: 0.94rem;
+}
+.finput, .linput{
+    width: 14.1875rem;
+    height: 3.75rem;
+    color: #1D2C3C;
+}
+.finput label, .linput label{
+    width: 11.6875rem;
+    margin-block-end: 0.44rem;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(29, 44, 60, 1);
+}
+.finput input, .linput input{
+    width: 14.1875rem;
+    border: none;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    padding: 0.56rem 0.81rem;
+    background: rgba(237, 239, 242, 1);
+}
+.email{
+    width: 23.125rem;
+    height: 3.75rem;
+    color: #1D2C3C;
+}
+.email label{
+    display: block;
+    margin-block-end: 0.44rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(29, 44, 60, 1);
+}
+.email input{
+    width: 23.125rem;
+    border: none;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    padding: 0.56rem 0.81rem;
+    background: rgba(237, 239, 242, 1);
+}
+.payment{
+    margin: 2.06rem 0 0 0.06rem;
+    width: 33.25rem;
+    height: 9.625rem;
+}
+.paymentheader{
+    position: relative;
+    width: 17.875rem;
+    height: 1.875rem;
+    margin-block-end: 1.31rem;
+}
+.paymentheader p{
+    color: #548BC5;
+    position: absolute;
+    top: 0.25rem;
+    left: 0.655rem;
+}
+.creditcard{
+    width: 30.1875rem;
+    height: 3.75rem;
+    position: relative;
+    margin-block-end: 2.69rem;
+}
+.creditcard input{
+    padding: 0.56rem 0.81rem;
+    width: 9.625rem;
+}
+.creditcard p:nth-child(1){
+    width: 11.6875rem;
+    color: #1D2C3C;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-block-end: 0.44rem;
+}
+.date, .cvc{
+    color: rgba(100, 110, 122, 1);
+    text-align: right;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.date{
+    position: absolute;
+    top: 2rem;
+    left: 16.37rem;
+    width: 9.625rem;
+}
+.cvc{
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    width: 2.25rem;
+}
+.creditcard input{
+    width: 100%;
+    border: none;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    background: rgba(237, 239, 242, 1);
+}
+.purchase{
+    width: 30.1875rem;
+    height: 9.13131rem;
+    margin-top: 2.44rem ;
+}
+.purchase button{
+    width: 30.1875rem;
+    height: 3.25rem;
+    border: none;
+    border-radius: 0.3125rem;
+    background: #038E7D;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.02475rem;
+    margin-block-end: 1.5rem;
+}
+.support{
+    display: flex;
+    margin-block-end: 2.12rem;
+    justify-content: center;
+    height: 1rem;
+}
+.support svg, .support b{
+    margin-inline-end: 0.62rem;
+}
+.support b{
+    color: rgba(29, 44, 60, 1);
+}
+.support p{
+    color: rgba(100, 110, 122, 1);
+}
+.support p span{
+    text-decoration: underline;
+}
+.powered{
+    display: flex;
+}
+.powered img{
+    margin: 0 auto;
+    width: 5.75rem;
+    height: 1.25631rem;
+}
+
+
+
+/* The Right side */
+.rightContent{
+    width: 19.5rem;
+    height: 49.6875rem;
+    border-radius: 0rem 0.375rem 0.375rem 0rem;
+    background: #1179BF;
+    padding: 2.63rem 2.75rem 8.94rem 2.31rem;
+    color: rgba(255, 255, 255, 1);
+}
+.plan{
+    width: 14.4375rem;
+    height: 9.5rem;
+    margin-block-end: 2.25rem;
+}
+.plan h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.00063rem;
+    margin-block-end: 0.31rem;
+}
+.pricing{
+    width: 8.75rem;
+    height: 4.5rem;
+    margin-block-end: 0.19rem;
+}
+.pricing p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.00094rem;
+    align-items: flex-start;
+    padding-block-start: 0.81rem;
+    padding-inline-end: 0.37rem;
+}
+.pricing h2{
+    font-size: 3.75rem;
+    font-weight: 300;
+    letter-spacing: -0.00094rem;
+
+    > span{
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: -0.00094rem;
+    }
+}
+.plan em{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.details{
+    width: 10.625rem;
+    height: 6rem;
+    margin-block-end: 2.38rem;
+}
+.details li{
+    list-style: none;
+    margin-block-end: 1rem;
+    display: flex;
+    height: 1.25rem;
+}
+.details ul li svg{
+    margin-inline-end: 0.69rem;
+}
+.details ul li span{
+    padding-block-end: 0.5rem;
+}
+.details ul li span b{
+    font-weight: 700;
+}
+.switch{
+    width: 11.5rem;
+    height: 3.1875rem;
+    margin-block-end: 2.56rem;
+}
+.switch p{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -0.0005rem;
+    margin-block-end: 0.5rem;
+}
+.switch p b, .switch a{
+    font-weight: 700;
+}
+.switch a{
+    text-decoration: none;
+    color: inherit;
+}
+.switch hr{
+    width: 11.25rem;
+    height: 0.25rem;
+    opacity: 0.5036;
+    background: rgba(185, 245, 255, 1);
+}
+.lone{
+    width: 14rem;
+    height: 0.125rem;
+    opacity: 0.2005;
+    background: #FFF;
+    margin: 2.56rem 0;
+}
+.quote{
+    width: 14.1875rem;
+    height: 12.25rem;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -0.00056rem;
+}
+.quote p{
+    margin-block-end: 1.06rem;
+}
+.quote p b{
+    font-weight: 700;
+}
+.quote h3{
+    display: flex;
+    
+    > img{
+        margin-inline-end: 0.87rem;
+    }
+    
+    > b{
+        font-weight: 700;
+        align-items: flex-start;
+        padding-block-start: 0.62rem;
+        font-size: 1rem;
+        letter-spacing: -0.0005rem;
+    } 
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;   
+}
+
+footer p{
+    color: rgba(99, 107, 111, 1);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    align-items: center;
+
+}
+.dot{
+    height: 0.2rem;
+    width: 0.2rem;
+    border-radius: 50%;
+    align-items: center;
+    background-color: rgba(99, 107, 111, 1);    
+}
+footer div a{
+    color: rgba(49, 112, 143, 1);
+    text-decoration: none;
+}
