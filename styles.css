@@ -5,13 +5,12 @@
 }
 body{
     background: #F5F8FA;
-    width: 90rem;
     height: 73.125rem;
     flex-shrink: 0;
     font-family: lato;
 }
 .top{
-    width: 85rem;
+    width: 100%;
     height: 4.5625rem;
     flex-shrink: 0;
     margin: 1.75rem 2.5rem 0 2.5rem;
@@ -309,7 +308,7 @@ form{
     margin-block-end: 0.31rem;
 }
 .pricing{
-    width: 8.75rem;
+    width: 10.75rem;
     height: 4.5rem;
     margin-block-end: 0.19rem;
 }
@@ -339,7 +338,7 @@ form{
     line-height: 1.5rem;
 }
 .details{
-    width: 10.625rem;
+    width: 11.625rem;
     height: 6rem;
     margin-block-end: 2.38rem;
 }
@@ -359,7 +358,7 @@ form{
     font-weight: 700;
 }
 .switch{
-    width: 11.5rem;
+    width: 12.5rem;
     height: 3.1875rem;
     margin-block-end: 2.56rem;
 }
@@ -390,7 +389,6 @@ form{
     margin: 2.56rem 0;
 }
 .quote{
-    width: 14.1875rem;
     height: 12.25rem;
     font-size: 1.125rem;
     font-style: italic;
