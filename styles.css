@@ -50,7 +50,7 @@ body{
     text-align: center;
 }
 hr.header{
-    width: 84.875rem;
+    width: 100%;
     height: 0.125rem;
     background: rgba(224, 230, 234, 1);
     border: none;
