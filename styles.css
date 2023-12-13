@@ -5,7 +5,7 @@
 }
 body{
     background: #F5F8FA;
-    height: 73.125rem;
+    /* height: 73.125rem; */
     font-family: lato;
 }
 .top{
@@ -417,7 +417,7 @@ form{
     } 
 }
 footer{
-    margin-block-end: 8.69rem;
+    padding-block-end: 8.69rem;
 }
 footer div{
     display: flex;
