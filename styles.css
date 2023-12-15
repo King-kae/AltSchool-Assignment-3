@@ -201,42 +201,32 @@ form{
     position: relative;
     margin-block-end: 2.69rem;
 }
-.creditcard input{
-    padding: 0.56rem 0.81rem;
-    width: 9.625rem;
-}
-.creditcard p:nth-child(1){
-    width: 11.6875rem;
-    color: #1D2C3C;
-    font-size: 0.875rem;
-    font-weight: 400;
+.creditcard p{
     margin-block-end: 0.44rem;
-}
-.date, .cvc{
-    color: rgba(100, 110, 122, 1);
-    text-align: right;
-    font-size: 0.875rem;
-    font-weight: 400;
 }
 .date{
     position: absolute;
-    top: 2rem;
-    left: 16.37rem;
-    width: 9.625rem;
+    left: 15rem;
+    width: 15.1875rem !important;
+    z-index: 2;
 }
 .cvc{
     position: absolute;
-    top: 2rem;
-    right: 1rem;
-    width: 2.25rem;
-}
+    left: 26.5rem;
+    width: 3.6875rem !important;
+    z-index: 4;
+} 
 .creditcard input{
     width: 100%;
     border: none;
     height: 2.25rem;
-    flex-shrink: 0;
+    padding: 0.56rem 0.81rem;
     border-radius: 0.25rem;
     background: rgba(237, 239, 242, 1);
+}
+.creditcard input:focus{
+    border: none;
+    outline: none;
 }
 .purchase{
     width: 30.1875rem;
